@@ -1,0 +1,39 @@
+# 🤖 RPA com n8n e Python
+
+Projeto de automação de processos utilizando **n8n + Python**, demonstrando integração entre workflows, Webhooks, APIs REST e processamento de dados.
+
+## 🎯 Objetivo
+
+Criar um processo de RPA no qual o n8n recebe dados por Webhook, envia essas informações para uma API desenvolvida em Python e retorna o resultado do processamento.
+
+## 🔄 Fluxo
+
+Webhook → HTTP Request → Python → Validação → Resultado → n8n
+
+## 🛠️ Tecnologias
+
+- n8n
+- Python
+- Flask
+- Docker
+- Docker Compose
+- REST API
+- Webhook
+- JSON
+- Git/GitHub
+
+## 📁 Estrutura
+
+```text
+rpa-n8n-python/
+├── README.md
+├── docker-compose.yml
+├── .gitignore
+├── workflow/
+│   └── rpa_workflow.json
+├── python/
+│   ├── app.py
+│   ├── Dockerfile
+│   └── requirements.txt
+└── data/
+    └── exemplo.json
